@@ -1,4 +1,4 @@
-#ECG Classification using CNNs
+ECG Classification using CNNs
 
 This project was conducted in the Signal and Image Processing Lab of the Electrical Engineering Faculty at the Technion, under the supervision of Dr. Meir Bar Zohar. The goal of the project was to classify human ECG signals into three categories: NSR (normal sinus rhythm), ARR (atrial premature beat), and CHF (congestive heart failure). To do this, we used a convolutional neural network (CNN) trained on data from the publicly available Physionet database, which contains 162 recordings of 512-second ECG signals.
 
