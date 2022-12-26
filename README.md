@@ -9,19 +9,23 @@ For this project, we preprocessed the ECG signals by cutting them into shorter s
 The CWT is particularly well-suited for analyzing ECG signals because it can capture both the high-frequency details (e.g., individual heartbeats) and the low-frequency trends (e.g., long-term changes in heart rate) present in the signal. The CWT coefficients that result from this transformation can then be transformed into images using OpenCV.
 
 Methods
+
 To classify the ECG signals, we used transfer learning with a pre-trained GoogLeNet model in PyTorch.
 We fine-tuned the model on the transformed images, using labels indicating the corresponding heart situation (NSR, ARR, or CHF).
 
 We evaluated the performance of the classifier using various metrics, including accuracy, precision, and recall.
 
 Results
+
 Our classifier achieved an accuracy of XXX%, a precision of XXX%, and a recall of XXX%.
 
 Conclusion
+
 This project demonstrates the effectiveness of using CNNs for ECG classification.
 The use of transfer learning with a pre-trained model allowed us to achieve good performance with a relatively small dataset. 
 
 Usage
+
 To use this project, you will need to install the following dependencies:
 
 Python 3
